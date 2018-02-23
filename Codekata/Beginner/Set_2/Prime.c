@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-	int num,m = 0,flag = 0,i;
+	int n,a = 0,flag = 0,i;
 	printf("Enter the integer:");
-	scanf("%d",&num);
-	m = num / 2;
-	for(i = 2; i<=m;i++){
-		if(num%i == 0){
+	scanf("%d",&n);
+	a = n / 2;
+	for(i = 2; i<=a;i++){
+		if(n%i == 0){
 			printf("Not a prime!");
 			flag = 1;
 			break;
